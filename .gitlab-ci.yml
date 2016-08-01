@@ -1,0 +1,6 @@
+before_script:
+    - source /home/gitlab_ci/.bashrc
+    - npm install && npm install -g mocha
+test:
+    script:
+        - npm test
